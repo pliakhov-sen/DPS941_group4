@@ -1,0 +1,13 @@
+{
+  "runConfigurations": [
+    {
+      "id": "8a480ed8-c97a-0b62-5f38-838214524437",
+      "name": "Lab1 Robot",
+      "type": "colcon build",
+      "cfg": {
+        "workingDir": "/lab1/aws-robomaker-sample-application-cloudwatch/robot_ws",
+        "cmdArgs": ""
+      }
+    }
+  ]
+}
