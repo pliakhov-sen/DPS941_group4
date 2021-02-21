@@ -30,9 +30,11 @@ class Rotator:
         self.twist = Twist()
 
         direction = 1
-        angular_speed = 0.2
-        r = rospy.Rate(0.1)
+        angular_speed = 0
+        r = rospy.Rate(0)
         while not rospy.is_shutdown():
+            self.twist.linear.x = 0.23;
+            self.twist.linear.y = 0.23;
             self.twist.angular.z = direction * angular_speed
             self._cmd_pub.publish(self.twist)
             rospy.loginfo('Rotating Robot: %s', self.twist)

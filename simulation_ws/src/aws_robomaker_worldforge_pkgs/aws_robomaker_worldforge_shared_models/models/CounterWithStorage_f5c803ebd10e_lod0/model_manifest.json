@@ -1,0 +1,22 @@
+{
+  "Name": "CounterWithStorage_f5c803ebd10e_lod0",
+  "Source": "19_CounterWithStorage",
+  "Timestamp": 1592570892,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.7041342258453369,
+      "y": -0.30206039547920227,
+      "z": -9.536740464000104e-08
+    },
+    "MaxPoint": {
+      "x": 0.7181358337402344,
+      "y": 0.3086695969104767,
+      "z": 0.8636177778244019
+    }
+  },
+  "Type": "kitchen-counters",
+  "Category": "kitchen-counters",
+  "Width": 1.4222700595855713,
+  "Length": 0.610729992389679,
+  "Orientation": 4.71238898038469
+}

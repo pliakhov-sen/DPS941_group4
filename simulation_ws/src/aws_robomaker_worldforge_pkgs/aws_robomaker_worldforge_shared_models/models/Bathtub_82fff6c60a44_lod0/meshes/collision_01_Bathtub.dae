@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+
+    <created>2020-05-25T10:59:45</created>
+    <modified>2020-05-25T10:59:45</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_3_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>33.21928</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">1</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_3_-_Default-material" name="_3_-_Default">
+      <instance_effect url="#_3_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-UCX_SM_bathtub" name="UCX_SM_bathtub">
+      <mesh>
+        <source id="geom-UCX_SM_bathtub-positions">
+          <float_array id="geom-UCX_SM_bathtub-positions-array" count="120">-42.33321 -79.54929 14.47771 42.35194 -79.54929 14.47771 -42.33321 79.8445 14.47771 42.35194 79.8445 14.47771 -42.33321 -79.54929 83.0367 42.35194 -79.54929 83.0367 -42.33321 79.8445 83.0367 42.35194 79.8445 83.0367 21.87746 -41.5688 0 28.19698 -44.38516 0 25.27845 -34.43865 0 31.88321 -37.3876 0 21.47658 -42.77388 14.55954 27.67912 -45.73005 14.55955 25.52382 -32.94619 14.55954 32.17324 -36.13931 14.55954 -32.86879 -38.25608 0 -25.58537 -33.24514 0 -29.47919 -46.02763 0 -21.91054 -40.88411 0 -33.8201 -36.68406 14.55954 -26.53668 -31.67312 14.55955 -27.00389 -46.96524 14.55954 -19.43524 -41.82172 14.55954 21.87746 42.51387 0 28.19698 45.33023 0 25.27845 35.38372 0 31.88321 38.33266 0 21.47658 43.71895 14.55954 27.67912 46.67512 14.55955 25.52382 33.89126 14.55954 32.17324 37.08438 14.55954 -31.37782 39.08115 0 -26.38554 34.73244 0 -27.73993 46.26225 0 -23.16323 43.27839 0 -33.8201 37.62913 14.55954 -26.53668 32.61819 14.55955 -27.00389 47.91031 14.55954 -19.43524 42.76678 14.55954</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_bathtub-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_bathtub-normals">
+          <float_array id="geom-UCX_SM_bathtub-normals-array" count="360">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.4117516 -0.9062732 -0.09554876 -0.4050643 -0.9089156 -0.09897161 -0.4218919 -0.9021467 -0.09021467 -0.4286589 -0.8992871 -0.08680009 0.8930746 -0.44978 0.01076033 0.8846201 -0.4657702 0.02247627 0.8990295 -0.4378811 0.002479292 0.9055555 -0.4241692 -0.007056772 0.4132747 0.9055045 -0.09625795 0.4056181 0.908493 -0.1005696 0.4237417 0.9012615 -0.09039313 0.4314582 0.8980129 -0.08611997 -0.9117036 0.4108388 -0.002863346 -0.9024262 0.4307078 0.01085074 -0.9178455 0.3967412 -0.01249353 -0.9244098 0.380673 -0.02355366 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.5622092 0.8173775 -0.1257579 -0.5622082 0.8173759 -0.1257721 -0.5622959 0.8173127 -0.1257918 -0.5622091 0.8173774 -0.1257581 0.8652173 0.4959358 -0.07380129 0.8192479 0.5733782 -0.008392761 0.8485914 0.5268171 -0.04854271 0.8941579 0.4299129 -0.1251258 0.5558637 -0.8179629 -0.1481634 0.5558671 -0.8179678 -0.1481231 0.5558671 -0.8179678 -0.1481231 0.5558637 -0.8179628 -0.1481634 -0.8824891 -0.4688044 0.03788787 -0.8288051 -0.5493575 0.1062473 -0.8628778 -0.5012473 0.06475398 -0.9164298 -0.3998412 -0.01683559 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.4117516 0.9062732 -0.09554876 -0.4286589 0.8992871 -0.08680009 -0.4218919 0.9021467 -0.09021467 -0.4050643 0.9089156 -0.09897161 0.8930746 0.44978 0.01076033 0.9055555 0.4241692 -0.007056772 0.8990295 0.4378811 0.002479292 0.8846201 0.4657702 0.02247627 0.4132747 -0.9055045 -0.09625795 0.4314582 -0.8980129 -0.08611997 0.4237417 -0.9012615 -0.09039313 0.4056181 -0.908493 -0.1005696 -0.9117036 -0.4108388 -0.002863346 -0.9244098 -0.380673 -0.02355366 -0.9178455 -0.3967412 -0.01249353 -0.9024262 -0.4307078 0.01085074 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.5622092 -0.8173775 -0.1257579 -0.5622091 -0.8173774 -0.1257581 -0.5622082 -0.8173759 -0.1257721 -0.5622082 -0.8173759 -0.1257721 0.8652173 -0.4959358 -0.07380129 0.8941579 -0.4299129 -0.1251258 0.8485914 -0.5268171 -0.04854271 0.8192479 -0.5733782 -0.008392761 0.5558637 0.8179629 -0.1481634 0.5558637 0.8179628 -0.1481634 0.5558671 0.8179678 -0.1481231 0.5558671 0.8179678 -0.1481231 -0.8824891 0.4688044 0.03788787 -0.9164604 0.3997713 -0.0168297 -0.8628778 0.5012473 0.06475398 -0.8288051 0.5493575 0.1062473</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_bathtub-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_bathtub-map1">
+          <float_array id="geom-UCX_SM_bathtub-map1-array" count="360">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_bathtub-map1-array" count="120" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-UCX_SM_bathtub-vertices">
+          <input semantic="POSITION" source="#geom-UCX_SM_bathtub-positions"/>
+        </vertices>
+        <triangles material="_3_-_Default" count="60">
+          <input semantic="VERTEX" source="#geom-UCX_SM_bathtub-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-UCX_SM_bathtub-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-UCX_SM_bathtub-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 4 4 4 5 5 5 7 6 7 7 6 7 6 7 6 4 4 4 0 8 8 1 9 9 5 10 11 5 10 11 4 11 10 0 8 8 1 12 12 3 13 13 7 14 15 7 14 15 5 15 14 1 12 12 3 16 16 2 17 17 6 18 19 6 18 19 7 19 18 3 16 16 2 20 20 0 21 21 4 22 23 4 22 23 6 23 22 2 20 20 8 24 24 10 25 26 11 26 27 11 26 27 9 27 25 8 24 24 12 28 28 13 29 29 15 30 31 15 30 31 14 31 30 12 28 28 8 32 32 9 33 33 13 34 35 13 34 35 12 35 34 8 32 32 9 36 36 11 37 37 15 38 39 15 38 39 13 39 38 9 36 36 11 40 40 10 41 41 14 42 43 14 42 43 15 43 42 11 40 40 10 44 44 8 45 45 12 46 47 12 46 47 14 47 46 10 44 44 16 48 48 17 49 49 19 50 51 19 50 51 18 51 50 16 48 48 20 52 52 22 53 54 23 54 55 23 54 55 21 55 53 20 52 52 16 56 56 20 57 58 21 58 59 21 58 59 17 59 57 16 56 56 17 60 60 21 61 62 23 62 63 23 62 63 19 63 61 17 60 60 19 64 64 23 65 66 22 66 67 22 66 67 18 67 65 19 64 64 18 68 68 22 69 70 20 70 71 20 70 71 16 71 69 18 68 68 24 72 72 25 73 73 27 74 75 27 74 75 26 75 74 24 72 72 28 76 76 30 77 78 31 78 79 31 78 79 29 79 77 28 76 76 24 80 80 28 81 82 29 82 83 29 82 83 25 83 81 24 80 80 25 84 84 29 85 86 31 86 87 31 86 87 27 87 85 25 84 84 27 88 88 31 89 90 30 90 91 30 90 91 26 91 89 27 88 88 26 92 92 30 93 94 28 94 95 28 94 95 24 95 93 26 92 92 32 96 96 34 97 98 35 98 99 35 98 99 33 99 97 32 96 96 36 100 100 37 101 101 39 102 103 39 102 103 38 103 102 36 100 100 32 104 104 33 105 105 37 106 107 37 106 107 36 107 106 32 104 104 33 108 108 35 109 109 39 110 111 39 110 111 37 111 110 33 108 108 35 112 112 34 113 113 38 114 115 38 114 115 39 115 114 35 112 112 34 116 116 32 117 117 36 118 119 36 118 119 38 119 118 34 116 116</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-UCX_SM_bathtub" name="UCX_SM_bathtub">
+        <instance_geometry url="#geom-UCX_SM_bathtub">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_3_-_Default" target="#_3_-_Default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>
