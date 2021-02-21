@@ -2,6 +2,7 @@
 Repository for labs from group 4 (Paul, Zarina, Adel)
 
 ## Lab 1 Readme
+Please switch to the ros1 branch to view our source files for lab1. 
 
 For lab1 we have included:
   - simulation_ws
